@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // Target modern JavaScript
+    "target": "ES2020",
+    "module": "commonjs",
+    
+    // Output directory for compiled JavaScript
+    "outDir": "./dist",
+    "rootDir": "./src",
+    
+    // Enable strict type checking
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    // Additional type checking
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    
+    // Module resolution
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    
+    // Source maps for debugging
+    "sourceMap": true,
+    
+    // Allow importing JSON files
+    "allowSyntheticDefaultImports": true,
+    
+    // Type definitions
+    "types": ["node", "jest"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
